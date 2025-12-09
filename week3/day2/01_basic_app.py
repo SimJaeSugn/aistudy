@@ -51,7 +51,7 @@ if user_name:
 # 숫자 입력
 age = st.number_input("나이를 입력하세요:", min_value=0, max_value=120, value=25)
 st.write(f"입력하신 나이: {age}세")
-
+ 
 # 선택 박스
 favorite_color = st.selectbox(
     "좋아하는 색깔을 선택하세요:",
